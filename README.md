@@ -1,4 +1,5 @@
 # 2c.SIMULATING ARP /RARP PROTOCOLS
+
 ## AIM
 To write a python program for simulating ARP protocols using TCP.
 ## ALGORITHM:
@@ -45,6 +46,7 @@ while True:
     print("MAC Address",s.recv(1024).decode())
 ```
 ## OUPUT - ARP
+![Screenshot 2025-03-19 104809](https://github.com/user-attachments/assets/69071fe5-caef-4eb8-a267-53b4c229235d)
 
 ## PROGRAM - RARP
 ## Client-RARP:
@@ -75,7 +77,8 @@ while True:
     print("Logical Address",s.recv(1024).decode())
 ```
 ## OUPUT -RARP
-![Uploading Screenshot 2025-03-19 114845.png…]()
+
+![rarp (1)](https://github.com/user-attachments/assets/4fed4ac3-7a96-464f-9f53-728b7b0ee7d8)
 
 ## RESULT
 Thus, the python program for simulating ARP protocols using TCP was successfully 
